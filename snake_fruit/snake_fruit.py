@@ -29,7 +29,7 @@ class Food:
 
     def generate_random_cell(self):
         x = random.randint(0, number_of_cells -1)
-        y = random.randint(0, number_of_cells -1)
+        y = random.randint(0, number_of_cells -1)  
         return Vector2(x,y)        
 
     def generate_random_pos(self, snake_body):
