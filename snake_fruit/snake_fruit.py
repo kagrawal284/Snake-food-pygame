@@ -112,7 +112,7 @@ pygame.display.set_caption("Retro Snake")
 clock = pygame.time.Clock()
 
 game = Game()
-food_surface = pygame.image.load("food.png")
+food_surface = pygame.image.load("snake_fruit/food.png")
 
 SNAKE_UPDATE = pygame.USEREVENT
 pygame.time.set_timer(SNAKE_UPDATE, 200)
